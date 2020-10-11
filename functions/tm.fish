@@ -48,12 +48,12 @@ function tm_help
   echo
 
   echo "    detach    disconnect from the current session"
-  echo "    goto      <name> change tmux sessions"
+  echo "    goto      (-n <session_name>) change tmux sessions"
   echo "    home      got to the current home tmux session"
   echo "    ls        list all available tmuxers"
-  echo "    new       <session_name> create a new TMUX session"
+  echo "    new       (-n <session_name>) create a new TMUX session"
   echo "    open      open from list dialog"
   echo "    session   display the current session name"
-  echo "    set       set current TMUX session"
+  echo "    set       (-n <session_name>) set current TMUX session"
 
 end
